@@ -1,0 +1,28 @@
+ul {
+    display: flex; /* utiliser Flexbox pour organiser les éléments en ligne */
+    justify-content: center; /* centrer horizontalement les éléments dans le conteneur parent */
+    align-items: center; /* centrer verticalement les éléments dans le conteneur parent */
+    list-style-type: none; /* enlever les puces de liste */
+    margin: 0; /* enlever la marge par défaut */
+    padding: 0; /* enlever le remplissage par défaut */
+    align-content: center;
+  }
+  
+  li {
+    margin: 0 10px; /* ajouter une marge horizontale pour séparer les éléments */
+  }
+  
+  .img {
+    float: left; /* flotter l'image à gauche pour l'aligner avec les liens */
+    margin-right: 10px; /* ajouter une marge à droite pour séparer l'image des liens */
+    width: 108px; /* difinie la largeur de l'img à 108px */
+    height: 105px; /* difinie la hauteur de l'img à 105px */
+}
+
+footer {
+  margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
